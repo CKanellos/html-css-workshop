@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.anb {
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('imgs/bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}

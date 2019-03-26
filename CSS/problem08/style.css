@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.smol {
+    height: 100px;
+}
+
+.col {
+    border-style: dashed;
+    margin: 20px;
+    padding: 10px;
+}
+
+.heading {
+    font-weight: normal;
+}
+
+.section {
+    margin: 100px;
+}

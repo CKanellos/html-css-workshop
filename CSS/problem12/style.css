@@ -1,0 +1,43 @@
+.body {
+    margin: 0;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+}
+
+.topBar {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 1%;
+}
+
+.middle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.bottomBar {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+/*
+  height
+  display
+  align-items
+  justify-content
+  */

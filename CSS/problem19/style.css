@@ -3,11 +3,38 @@ body {
 }
 
 .nav {
-  background: #383737;
 }
 
 .nav-dropdown {
+  background: #383737;
   color: #fff;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  padding: 16px;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.nav:hover ul {
+  display: block;
+}
+
+.nav li a {
+  display: block;
+  background-color: dodgerblue;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: rgb(29, 129, 228);
+  color: white;
 }

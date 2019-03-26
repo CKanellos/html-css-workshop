@@ -14,9 +14,11 @@ body {
 
 .aside {
   background: forestgreen;
+
 }
 
 .main {
+  text-align: center;
 }
 
 .footer {
